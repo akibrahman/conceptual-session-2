@@ -1,8 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Public+Sans:wght@300;400;500;600;700&family=Work+Sans&display=swap");
-
+/* All Elements */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+}
+/* Navigation Bar  */
+.nav-wrap {
+  display: flex;
+  justify-content: space-around;
+  background-color: #d5d2d2;
+  padding: 15px;
+}
+.n-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.n-logo span {
+  color: #00ffff;
+  font-weight: bold;
+}
+.n-logo img {
+  transform: scale(1.15);
+}
+.n-menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  font-size: 18px;
 }
