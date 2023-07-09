@@ -32,3 +32,48 @@
   align-items: center;
   font-size: 18px;
 }
+
+/* Banner Section  */
+.banner-wrap {
+  background-image: linear-gradient(#00000063, #87212163),
+    url(./asset/image/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 120%;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.banner-wrap h1 {
+  color: #ffffff;
+  font-size: 80px;
+  text-align: center;
+}
+.banner-wrap h1 span {
+  color: #f52c2c;
+}
+.banner-wrap p {
+  font-size: 19px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.b-btn {
+  display: flex;
+  gap: 20px;
+}
+.b-btn button {
+  padding: 10px 25px;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #fff;
+  background-color: #f52c2c;
+  border: none;
+  outline: none;
+}
+.b-btn button:nth-child(2) {
+  background-color: #fff;
+  color: #000;
+}
