@@ -77,3 +77,99 @@
   background-color: #fff;
   color: #000;
 }
+/* Service List  */
+.service-wrap {
+  background-color: #111111;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: linear-gradient(#000000cc, #000000cc),
+    url(./asset/image/footer-bg.png);
+  background-size: 100%;
+  background-position: center;
+  color: #fff;
+  padding: 25px 0 200px 0;
+  margin-bottom: 1000px;
+}
+.s-left {
+  width: 50%;
+  padding-left: 20px;
+}
+.s-left button {
+  padding: 10px 25px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  color: #a18080;
+  font-size: 17px;
+  border: navajowhite;
+}
+.s-title {
+  font-size: 35px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.s-title span {
+  color: #f52c2c;
+}
+.s-des {
+  font-size: 16px;
+  width: 80%;
+  margin-bottom: 30px;
+}
+.s-left ol li {
+  list-style: decimal;
+  margin-left: 40px;
+}
+.s-left ol {
+  margin-bottom: 30px;
+}
+.s-pro {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.s-img {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+}
+.s-img img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.s-deg {
+  font-size: 14px;
+  padding: 30px 0;
+  padding-right: 100px;
+  border-right: 1px solid #f52c2c;
+}
+.s-pro button {
+  height: 50%;
+}
+.s-right {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.s-right .card {
+  width: 46%;
+  height: 310px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+}
+.s-right .card img {
+  width: 110px;
+}
+.s-right .card p {
+  font-size: 20px;
+  font-weight: 700;
+}
