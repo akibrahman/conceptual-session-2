@@ -89,7 +89,8 @@
   background-position: center;
   color: #fff;
   padding: 25px 0 200px 0;
-  margin-bottom: 1000px;
+  margin-bottom: 140px;
+  position: relative;
 }
 .s-left {
   width: 50%;
@@ -101,7 +102,7 @@
   background-color: #ffffff;
   color: #a18080;
   font-size: 17px;
-  border: navajowhite;
+  border: none;
 }
 .s-title {
   font-size: 35px;
@@ -147,6 +148,8 @@
 }
 .s-pro button {
   height: 50%;
+  color: #f52c2c;
+  cursor: pointer;
 }
 .s-right {
   width: 50%;
@@ -172,4 +175,46 @@
 .s-right .card p {
   font-size: 20px;
   font-weight: 700;
+}
+/* Contact Section  */
+.contact-wrap {
+  width: 80%;
+  background-color: #f52c2c;
+  border-radius: 20px;
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  position: absolute;
+  top: 90%;
+  left: 10%;
+}
+.c-left {
+  padding: 10px;
+  border-right: 2px solid #808080;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  min-width: 30%;
+}
+.c-left img {
+  width: 100px;
+}
+.c-nmbr > p:nth-child(1) {
+  font-size: 12px;
+}
+.c-nmbr > p:nth-child(2) {
+  font-size: 20px;
+}
+.c-right {
+  padding: 0 20px;
+  display: flex;
+  gap: 25px;
+}
+.c-right button {
+  border: 0;
+  padding: 0px 55px;
+  border-radius: 30px;
+  font-size: 16px;
+  line-height: 18px;
 }
