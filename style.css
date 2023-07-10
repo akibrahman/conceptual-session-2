@@ -218,3 +218,46 @@
   font-size: 16px;
   line-height: 18px;
 }
+/* Blog Section  */
+.blog-wrap {
+  background-color: #fff;
+  padding: 20px 0;
+  color: #000;
+}
+.blog-wrap h2 {
+  font-size: 45px;
+  text-align: center;
+}
+.blog-wrap h2 span {
+  color: #f52c2c;
+}
+.blog-wrap > p {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  width: 55%;
+  font-size: 20px;
+}
+.b-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.card {
+  width: 26%;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px gray;
+}
+.card img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.b-cards h3 {
+  padding: 20px;
+  font-size: 21px;
+}
+.b-cards p {
+  padding: 0 20px 22px 20px;
+  line-height: 20px;
+}
