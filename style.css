@@ -221,7 +221,7 @@
 /* Blog Section  */
 .blog-wrap {
   background-color: #fff;
-  padding: 20px 0;
+  padding: 20px 0 25px 0;
   color: #000;
 }
 .blog-wrap h2 {
@@ -260,4 +260,55 @@
 .b-cards p {
   padding: 0 20px 22px 20px;
   line-height: 20px;
+}
+/* Footer Section  */
+footer {
+  background-color: #121212;
+  color: #fff;
+  background-image: linear-gradient(#000000cc, #000000cc),
+    url(./asset/image/footer-bg.png);
+  background-size: 100%;
+  background-position: center;
+}
+footer hr {
+  width: 75%;
+  margin: 0 auto;
+  border-color: #808080;
+}
+
+.footer-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 80px 100px;
+  font-size: 14px;
+}
+.f-logo-part img {
+  margin-bottom: 20px;
+}
+.f-logo-part p {
+  line-height: 24px;
+}
+.social-links {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+.social-links i {
+  color: #fff;
+  font-size: 25px;
+}
+.f-title {
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.f-card li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+.copyright {
+  text-align: center;
+  padding: 20px 0;
 }
